@@ -1,0 +1,19 @@
+.electronics {
+    background-image: url("/assets/speaker.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+   }
+   .footwear {
+    background-image: url("/assets/shoe.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+   }
+   .fashion {
+    background-image: url("/assets/shirt.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+   }
+   .container-fluid {
+    height: 400px;
+   }
+   

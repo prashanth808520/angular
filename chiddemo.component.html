@@ -1,0 +1,17 @@
+
+<nav>
+    <h2>Product Categories</h2>
+    <ul>
+        <li><input type="checkbox" (click)="onToolBarClick($event)" class="btn btn-danger btn-block" name="All" value="1">
+             <span class="fa fa-home"></span> All<span>[{{allCount}}]</span></li>
+        <li>  <input type="checkbox" (click)="onToolBarClick($event)" class="btn btn-danger btn-block" name="Electronics" value="1">
+                <span class="fa fa-tv"></span> Electronics<span>[{{electronicsCount}}]</span></li>
+        <li> <input type="checkbox" (click)="onToolBarClick($event)" class="btn btn-danger btn-block" name="Footwear" value="1">
+                <span class="fa fa-shoe-prints"></span> Footwear<span>[{{footwearCount}}]</span></li>
+         <li><input type="checkbox" (click)="onToolBarClick($event)" class="btn btn-danger btn-block" name="Fashion" value="1">
+                <span class="fa fa-tshirt"></span> Fashion<span>[{{fashionCount}}]</span></li>
+         <li><input type="checkbox" class="btn btn-primary btn-block" (click)="SendAll($event)">Send All</li>
+                </ul>
+             </nav>
+            
+            
